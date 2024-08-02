@@ -191,7 +191,3 @@ Unable to get date of ssl expires for website example.com.
 ```
 ### Requirements
 Ensure that `openssl` is installed on your system, as the script uses it to retrieve SSL certificate information.
-
-### Notes
-- The script assumes the website uses port 443 for HTTPS.
-- Ensure the website is accessible from your network for the script to retrieve the SSL certificate.
