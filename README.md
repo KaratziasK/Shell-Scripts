@@ -62,12 +62,12 @@ The script will display a menu with the following options:
 ./system_info.sh
 ```
 ### Menu Options
-- 1) Hostname: Displays the system’s hostname.
-- 2) Kernel: Shows the kernel version.
-- 3) CPU: Provides the CPU model name.
-- 4) Memory: Displays the total, used, and free memory.
-- 5) Disk-Usage: Shows the total, used, and free disk space for the /dev/sda4 partition.
-- 6) Exit: Exits the script.
+1) Hostname: Displays the system’s hostname.
+2) Kernel: Shows the kernel version.
+3) CPU: Provides the CPU model name.
+4) Memory: Displays the total, used, and free memory.
+5) Disk-Usage: Shows the total, used, and free disk space for the /dev/sda4 partition.
+6) Exit: Exits the script.
 
 ## Error Handling
 If the user inputs an invalid option, the script will display “Wrong input!” and prompt the user to choose again.
