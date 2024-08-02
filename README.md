@@ -1,4 +1,5 @@
 # Shell Scripts
+**NOTE:** This project was part of a university course on Operating Systems at Harokopio University of Athens.
 ## Password Generator Script
 This Bash script generates a random password based on the difficulty level specified by the user. The script supports three difficulty levels: easy, medium, and hard.
 
