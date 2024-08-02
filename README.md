@@ -45,7 +45,7 @@ This Bash script provides a menu-driven interface to display various system info
 ### Usage
 To run the script, use the following command:
 ```sh
-./system_info_menu.sh
+./system_info.sh
 ```
 
 The script will display a menu with the following options:
@@ -59,7 +59,7 @@ The script will display a menu with the following options:
 ```
 ### Example
 ```sh
-./system_info_menu.sh
+./system_info.sh
 ```
 ### Menu Options
 - 1) Hostname: Displays the system’s hostname.
@@ -92,12 +92,12 @@ This Bash script counts the occurrences of each unique pair of words in a specif
 ## Usage
 To run the script, use the following command:
 ```sh
-./word_count.sh [path-to-file]
+./syslog_events.sh [path-to-file]
 ```
 Replace [path-to-file] with the path to the file you want to analyze.
 
 ### Example
-./word_count.sh sample.txt
+./syslog_events.sh sample.txt
 
 ### Error Handling
 The script takes one argument: the path to the file to be processed.
@@ -109,20 +109,19 @@ The script outputs the count of each unique pair of words in the specified file.
 [count] [word pair]
 ```
 
-
 ## Directory Analysis Script
 This Bash script performs various analyses on a specified directory, including finding the five largest files, identifying files with more than one hard link, and listing files without read permission.
 
 ### Usage
 To run the script, use the following command:
 ```sh
-./directory_analysis.sh [path-to-directory]
+./directory_info.sh [path-to-directory]
 ```
 Replace [path-to-directory] with the path to the directory you want to analyze.
 
 ### Example
 ```sh
-./directory_analysis.sh /path/to/directory
+./directory_info.sh /path/to/directory
 ```
 
 ### Script Details
@@ -133,7 +132,7 @@ Replace [path-to-directory] with the path to the directory you want to analyze.
 If the script is run without an argument, it will display the following message and exit:
 ```sh
 Please give a directory as argument
-./directory_analysis.sh [path-to-directory]
+./directory_info.sh [path-to-directory]
 ```
 
 ### Output
@@ -169,12 +168,12 @@ This shell script checks the expiration date of the SSL certificate for a specif
 Run the script from the command line, providing the website's domain as an argument:
 
 ```sh
-./ssl_check.sh [website]
+./ssl_certificate.sh [website]
 ```
 
 ### Example
 ```sh
-./ssl_check.sh example.com
+./ssl_certificate.sh example.com
 ```
 
 ### Output
