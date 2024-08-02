@@ -161,7 +161,7 @@ file9.dat
 ```
 
 
-## SSL Certificate Expiration Checker
+## SSL Certificate Expiration Checker Script
 This shell script checks the expiration date of the SSL certificate for a specified website and informs you whether the certificate has expired.
 
 ### Usage
